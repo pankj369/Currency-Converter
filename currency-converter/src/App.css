@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F3F4F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+
+}
+.div{
+  box-shadow: #333;
+}
+.converter {
+  background: #ffffff;
+  padding: 20px;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.converter h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+ input:hover{
+  border-color: #0EA5E9;
+
+}
+
+.currency-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  border-color: 2px solid black;
+}
+.currency-select select:hover{
+  border-color:#0EA5E9;
+  
+}
+
+.currency-select label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  border-color: 2px solid black;
+}
+
+.currency-select select {
+  padding: 8px;
+  font-size: 16px;
+  margin-left: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0EA5E9;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #078cca;
+}
